@@ -94,6 +94,15 @@ HotSetTab:CreateButton({
   	end    
 })
 
+HotSetTab:CreateButton({
+	Name = "Mythical Cheat)",
+	Callback = function()
+        fireItems({
+            {"Mythical Chest", 5000}
+        })
+        notify('✅ Relic Set — ใส่ครบแล้ว')
+  	end    
+})
 -- ============================================================
 -- Trade Tab
 -- ============================================================
